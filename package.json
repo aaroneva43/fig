@@ -2,7 +2,7 @@
   "name": "figui",
   "version": "1.0.1",
   "description": "flexible incremental GUI components",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "start": "webpack serve --progress --inline",
     "build": "webpack --progress",
