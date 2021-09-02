@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 
 import styles from './app.module.less';
 import Button from './components/form/Button';
-
+/* 
 const App = () => {
   return (
     <div className={styles.hello}>
@@ -13,6 +13,6 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root')); */
 
-// export { default as Button } from './components/form/Button';
+export { default as Button } from './components/form/Button';
