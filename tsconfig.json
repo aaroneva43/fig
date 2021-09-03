@@ -7,7 +7,9 @@
     "sourceMap": true,
     "target": "es5",
     "jsx": "react",
-    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "declaration": true,
+    "outDir": "./dist"
   },
   "exclude": ["node_modules"]
 }
